@@ -84,7 +84,7 @@ function App() {
   const [editingId, setEditingId] = useState(null);
   const [editingText, setEditingText] = useState("");
 
-  const API = "http://localhost:5000/api/tasks";
+   const API = "https://todo-list-react-1-4i5g.onrender.com/api/tasks";
 
   const loadTasks = async () => {
     const res = await fetch(API);
