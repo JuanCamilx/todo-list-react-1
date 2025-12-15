@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const pool = require("../db");
+const pool = require("../server");
 
 // Obtener todas las tareas (no eliminadas)
 router.get("/", async (req, res) => {
